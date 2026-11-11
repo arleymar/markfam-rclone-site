@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rclone-notes</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 42rem; margin: 4rem auto; padding: 0 1.5rem; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .sub { color: #666; margin-top: 0; }
+  h2 { font-size: 1.05rem; margin-top: 2rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ddd; color: #666; font-size: .9rem; }
+  a { color: #0b5fff; }
+</style>
+</head>
+<body>
+  <h1>rclone-notes</h1>
+  <p class="sub">A personal, single-user file sync utility.</p>
+
+  <h2>What this application does</h2>
+  <p>
+    rclone-notes is a private, self-hosted tool used by its sole owner to keep a
+    personal collection of plain-text notes synchronised between their own
+    computer and their own Google Drive account. It runs locally using the
+    open-source <a href="https://rclone.org/">rclone</a> utility and is not
+    offered to the public, has no user accounts, and is used by one person: the
+    account holder.
+  </p>
+
+  <h2>What it accesses</h2>
+  <p>
+    With the Drive permission you grant, the tool reads and writes files in a
+    single folder of your own Google Drive. That is its entire purpose.
+  </p>
+
+  <h2>Data handling</h2>
+  <p>
+    Files are copied directly between your computer and your Google Drive.
+    Nothing is sent to any other service, no analytics are collected, and no
+    data is shared, sold, or transmitted to any third party. The authorisation
+    token is stored only on the owner's own machine. See the
+    <a href="/privacy">privacy policy</a> for detail.
+  </p>
+
+  <footer>
+    Contact: <a href="mailto:harley.mark1@gmail.com">harley.mark1@gmail.com</a> ·
+    <a href="/privacy">Privacy policy</a>
+  </footer>
+</body>
+</html>
